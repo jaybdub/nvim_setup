@@ -9,7 +9,4 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        
 # create init.vim
 INIT_VIM=$HOME/.config/nvim/init.vim
-
-echo "call plug#begin(stdpath('data') . '/plugged')" >> $INIT_VIM
-echo "Plug 'neoclide/coc.nvim', {'branch': 'release'}" >> $INIT_VIM
-echo "call plug#end()" >> $INIT_VIM
+cp init.vim $INIT_VIM
