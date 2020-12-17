@@ -1,5 +1,5 @@
 Call
 
 ```bash
-wget -O - https://raw.githubusercontent.com/jaybdub/nvim_setup/master/nvim_setup.sh  /dev/null | /bin/bash 
+git clone https://github.com/nvim_setup && cd nvim_setup && ./nvim_setup.sh
 ```
