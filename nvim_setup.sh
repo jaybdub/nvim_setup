@@ -9,13 +9,4 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        
 # create init.vim
 INIT_VIM=$HOME/.config/nvim/init.vim
-if [[ -f $INIT_VIM ]]
-then
-	read -p "Overwrite $INIT_VIM? [Y/N]"
-	if [[ ! $REPLY =~ ^[Yy]$ ]]
-	then
-		exit
-	fi
-fi
-		
 cp init.vim $INIT_VIM

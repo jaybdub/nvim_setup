@@ -10,6 +10,7 @@ set number
 call plug#begin(stdpath('data') . '/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'joshdick/onedark.vim'
+Plug 'https://github.com/ivanov/vim-ipython'
 call plug#end()
 
 "==========================================
