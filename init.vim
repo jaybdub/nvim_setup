@@ -12,6 +12,9 @@ set number
 
 call plug#begin(stdpath('data') . '/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'weirongxu/coc-explorer'
+Plug 'neoclide/coc-lists'
+
 Plug 'joshdick/onedark.vim'
 call plug#end()
 
