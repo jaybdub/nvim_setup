@@ -1,7 +1,10 @@
+"==========================================
+" MISC
+"==========================================
 
-"==========================================
 set number
-"==========================================
+
+
 
 "==========================================
 " PLUGINS
@@ -10,7 +13,6 @@ set number
 call plug#begin(stdpath('data') . '/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'joshdick/onedark.vim'
-Plug 'https://github.com/ivanov/vim-ipython'
 call plug#end()
 
 "==========================================
@@ -184,3 +186,6 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+
+map <F8> :<C-u>CocCommand explorer<cr>

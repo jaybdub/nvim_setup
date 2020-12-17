@@ -10,3 +10,4 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 # create init.vim
 INIT_VIM=$HOME/.config/nvim/init.vim
 cp init.vim $INIT_VIM
+
