@@ -2,9 +2,9 @@
 " PLUGINS
 "==========================================
 
-echo "call plug#begin(stdpath('data') . '/plugged')" >> $INIT_VIM
-echo "Plug 'neoclide/coc.nvim', {'branch': 'release'}" >> $INIT_VIM
-echo "call plug#end()" >> $INIT_VIM
+call plug#begin(stdpath('data') . '/plugged')
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
 
 "==========================================
 " CoC Configuration
